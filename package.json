@@ -1,0 +1,27 @@
+{
+  "name": "memo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ingelieur/memo-api.git"
+  },
+  "author": "Shabrina V. Inmas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ingelieur/memo-api/issues"
+  },
+  "homepage": "https://github.com/ingelieur/memo-api#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.4"
+  }
+}
